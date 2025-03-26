@@ -1,0 +1,299 @@
+{
+    "quiz": [
+      {
+        "id": "age",
+        "question": "What is your age range?",
+        "type": "multiple_choice",
+        "options": ["18-25", "26-35", "36-50", "Over 50"],
+        "required": true
+      },
+      {
+        "id": "source",
+        "question": "How did you hear about Voices Ignited?",
+        "type": "multiple_choice",
+        "options": ["Social Media", "Friend", "Protest", "Other"],
+        "required": true
+      },
+      {
+        "id": "gov_priority",
+        "question": "Select the statements you agree with:",
+        "type": "multiple_select",
+        "options": [
+          "Healthcare should be a right",
+          "Stop using free speech for lies",
+          "Government serves people, not corporations",
+          "Keep religion out of government"
+        ],
+        "required": true
+      },
+      {
+        "id": "beliefs",
+        "question": "Which issues matter most to you?",
+        "type": "multiple_select",
+        "options": [
+          "Healthcare Rights",
+          "Free Speech",
+          "Government Reform",
+          "Religious Freedom",
+          "Economic Justice",
+          "Environmental Issues"
+        ],
+        "required": true
+      },
+      {
+        "id": "region",
+        "question": "Which region are you from?",
+        "type": "multiple_choice",
+        "options": [
+          "Northeast",
+          "Southeast",
+          "Midwest",
+          "Southwest",
+          "West"
+        ],
+        "required": true
+      },
+      {
+        "id": "state",
+        "question": "Which state are you from?",
+        "description": "Please select your state from the list below:",
+        "type": "multiple_choice",
+        "options": [
+          "California",
+          "Texas",
+          "Florida",
+          "New York",
+          "Illinois",
+          "Pennsylvania",
+          "Ohio",
+          "Georgia",
+          "Michigan",
+          "North Carolina",
+          "Other State"
+        ],
+        "required": true,
+        "dynamic": true,
+        "region_states": {
+          "Northeast": [
+            "Connecticut",
+            "Maine",
+            "Massachusetts",
+            "New Hampshire",
+            "New Jersey",
+            "New York",
+            "Pennsylvania",
+            "Rhode Island",
+            "Vermont"
+          ],
+          "Southeast": [
+            "Alabama",
+            "Arkansas",
+            "Florida",
+            "Georgia",
+            "Kentucky",
+            "Louisiana",
+            "Mississippi",
+            "North Carolina",
+            "South Carolina",
+            "Tennessee",
+            "Virginia",
+            "West Virginia"
+          ],
+          "Midwest": [
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Michigan",
+            "Minnesota",
+            "Missouri",
+            "Nebraska",
+            "North Dakota",
+            "Ohio",
+            "South Dakota",
+            "Wisconsin"
+          ],
+          "Southwest": [
+            "Arizona",
+            "New Mexico",
+            "Oklahoma",
+            "Texas"
+          ],
+          "West": [
+            "Alaska",
+            "California",
+            "Colorado",
+            "Hawaii",
+            "Idaho",
+            "Montana",
+            "Nevada",
+            "Oregon",
+            "Utah",
+            "Washington",
+            "Wyoming"
+          ]
+        }
+      },
+      {
+        "id": "leadership",
+        "question": "Would you be interested in a leadership role?",
+        "type": "multiple_choice",
+        "options": [
+          "Yes, I'm ready to lead",
+          "Maybe, I'd like to learn first",
+          "No, just want to support",
+          "Unsure at this time"
+        ],
+        "required": true
+      },
+      {
+        "id": "skills",
+        "question": "What skills can you contribute?",
+        "type": "multiple_select",
+        "options": [
+          "Social Media",
+          "Writing/Content",
+          "Public Speaking",
+          "Event Planning",
+          "Tech/IT",
+          "Legal Knowledge",
+          "Fundraising",
+          "Community Outreach"
+        ],
+        "required": true
+      },
+      {
+        "id": "activism_type",
+        "question": "What type of activism interests you most?",
+        "type": "multiple_select",
+        "options": [
+          "Online Advocacy",
+          "Local Organizing",
+          "Policy/Legislative",
+          "Education/Awareness",
+          "Direct Action/Protest",
+          "Media/Communications"
+        ],
+        "required": true
+      },
+      {
+        "id": "organizing_preference",
+        "question": "How do you prefer to organize?",
+        "type": "multiple_choice",
+        "options": [
+          "Small Local Groups",
+          "Large Scale Events",
+          "Online Campaigns",
+          "One-on-One Outreach"
+        ],
+        "required": true
+      },
+      {
+        "id": "social_media",
+        "question": "Which social platforms do you use most?",
+        "type": "multiple_select",
+        "options": [
+          "Instagram",
+          "TikTok",
+          "BlueSky",
+          "YouTube",
+          "Facebook",
+          "LinkedIn",
+          "Substack",
+          "Mastodon"
+        ],
+        "required": true
+      },
+      {
+        "id": "communication",
+        "question": "How would you prefer to stay updated?",
+        "type": "multiple_choice",
+        "options": [
+          "Telegram Groups",
+          "Email Newsletter",
+          "Social Media",
+          "Website Updates"
+        ],
+        "required": true
+      },
+      {
+        "id": "experience",
+        "question": "What's your level of activism experience?",
+        "type": "multiple_choice",
+        "options": [
+          "New to activism",
+          "Some protest experience",
+          "Community organizer",
+          "Professional activist"
+        ],
+        "required": true
+      },
+      {
+        "id": "availability",
+        "question": "How much time can you commit weekly?",
+        "type": "multiple_choice",
+        "options": [
+          "1-2 hours",
+          "3-5 hours",
+          "6-10 hours",
+          "10+ hours"
+        ],
+        "required": true
+      },
+      {
+        "id": "strike_support",
+        "question": "Would you support a general strike or economic resistance movement?",
+        "description": "(such as a national sick-out)",
+        "type": "multiple_choice",
+        "options": [
+          "Yes, and I would participate",
+          "Yes, but I can't participate personally",
+          "No, I don't think it's effective"
+        ],
+        "required": true
+      },
+      {
+        "id": "activist_org",
+        "question": "Are you currently part of any activist or labor organizations?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "required": true
+      },
+      {
+        "id": "encrypted_communication",
+        "question": "Would you be comfortable using an encrypted communication platform for security purposes?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "required": true
+      },
+      {
+        "id": "confidentiality",
+        "question": "Do you agree to keep all club matters private and confidential?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "required": true
+      },
+      {
+        "id": "enforcement_affiliation",
+        "question": "Do you have any affiliations with government enforcement agencies that could interfere with the club's purpose?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "required": true
+      },
+      {
+        "id": "reporting_role",
+        "question": "Do you work in a role that requires you to report on private organizations?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "required": true
+      },
+      {
+        "id": "mission_alignment",
+        "question": "By submitting this form, you confirm that you align with the goals and mission of Voices Ignited. You also agree that non-violence is the best path toward meaningful change. Do you agree?",
+        "type": "multiple_choice",
+        "options": ["Yes, fully agree", "Have concerns", "Do not agree"],
+        "required": true,
+        "description": "By selecting 'Yes', you confirm that you align with Voices Ignited's goals and believe in non-violent change."
+      }
+    ]
+}
